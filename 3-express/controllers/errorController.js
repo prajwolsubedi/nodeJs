@@ -39,10 +39,10 @@ const sendErrorProd = (err, res) => {
       message: err.message,
     });
   }
-  //programming or other unknown error : don't leak error details
+  //programming or other unknown error: don't leak error details
   else {
     //log error
-    console.log('Error 💥', err);
+    console.log('Error💥', err);
 
     //2. Send generic message
     res.status(500).json({
