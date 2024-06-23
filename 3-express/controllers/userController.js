@@ -13,7 +13,7 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
 exports.getUserById = (req, res) => {
   res.status(500).json({
     status: 'success',
-    message: 'This route is not yet defined',
+    message: 'This route is not defined yet',
   });
 };
 exports.createUser = (req, res) => {
