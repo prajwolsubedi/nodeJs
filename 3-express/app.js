@@ -43,4 +43,5 @@ app.all('*', (req, res, next) => {
 //by specifying 4 params express already knows this is error handling middleware
 app.use(globalErrorHandler);
 
+
 module.exports = app;
