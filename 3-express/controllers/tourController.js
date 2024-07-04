@@ -31,6 +31,7 @@ exports.getTourStats = catchAsync(async (req, res, next) => {
       $sort: { avgRating: 1 },
     },
     // {
+    //id diff/medium
     //   $match: {_id: {$regex: /(DIFFICULT|MEDIUM)/}}
     // }
   ]);
